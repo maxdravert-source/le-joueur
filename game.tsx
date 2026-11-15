@@ -268,7 +268,7 @@ const SCENES: { chapter?: string; sub?: string; panel?: string; speaker?: string
   { panel: "p10", speaker: "{NAME}", text: "« Merci à vous tous d'avoir veillé sur moi pendant deux ans. Je vous dois la vie — et pour une fois, je crois que je peux vraiment rendre la pareille. »" },
   { panel: "p11", speaker: "Narrateur", text: "Ce même jour, une jeune femme pousse la porte de la chambre 214, un tome neuf sous le bras. Le lit est fait. Vide. Les draps déjà refroidis." },
   { panel: "p11", speaker: "Infirmière", text: "« L'homme de la 214 ? Il est sorti ce matin. Marche parfaitement, même pas une canne. Il tenait à peine en place, paraît-il. »" },
-  { panel: "p11", speaker: "Léa, la sœur de l'enfant", text: "« 639 jours à veiller sur un inconnu… et je ne connais même pas son nom. Attends, super-héros. Tu me dois la fin du tome 12 — et je viendrai la chercher. »" },
+  { panel: "p11", speaker: "Léa, la sœur de l'enfant", text: "« 639 jours à veiller sur un inconnu… et je ne connais même pas son nom. Attends, super-héros. J'ai gardé la fin du tome 12 pour ton réveil — et je viendrai la découvrir avec toi. »" },
 ];
 
 const STAT_INFO: { key: StatKey; label: string; desc: string }[] = [
@@ -302,7 +302,7 @@ const STORY_BEATS: StoryBeatDef[] = [
     id: "lea", title: "La lectrice", panel: "p12",
     blocks: [
       { speaker: "Narrateur", text: "Le Bureau des reliques sent le papier ancien et l'encaustique. Derrière le guichet, une jeune femme classe des dossiers — et elle tourne la tête avant même que vous ayez ouvert la bouche." },
-      { speaker: "Léa", text: "« Attendez… c'est vous ? {NAME} ? Le dormeur de la chambre 214, debout devant mon guichet… Je vous ai lu chaque jour pendant 639 jours, et j'ai gardé la fin du tome 12 pour votre réveil. La voilà tombée, cette fin — vous me la devez toujours. »" },
+      { speaker: "Léa", text: "« Attendez… c'est vous ? {NAME} ? Le dormeur de la chambre 214, debout devant mon guichet… Six cent trente-neuf jours, un chapitre chaque soir — et je me suis toujours arrêtée avant la fin du tome 12. Je m'étais juré de ne la découvrir qu'avec vous. Alors… quand vous voulez. »" },
       { speaker: "Narrateur", text: "Elle vous regarde une seconde de trop, comme on vérifie une parenthèse qu'on n'a jamais osé fermer. Puis elle se reprend : « Rien. Oubliez. Vos noyaux de boss, la consignation, le rang — tout passe par ici. » Une ombre passe derrière ses yeux : celle de quelqu'un qui retient une question depuis deux ans." },
     ],
   },
