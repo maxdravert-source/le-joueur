@@ -19,6 +19,7 @@ const PANELS: Record<string, string> = {
   p9: "panels/p9.avif",
   p10: "panels/p10.avif",
   p11: "panels/p11.avif",
+  p12: "panels/p12.avif",
   c1: "panels/c1.avif",
   c2: "panels/c2.avif",
   d1: "panels/d1.avif",
@@ -106,16 +107,16 @@ const PANELS: Record<string, string> = {
   tartare: "panels/tartare.avif",
   abysse: "panels/abysse.avif",
   olympe: "panels/olympe.avif",
-  gorgoneB: "panels/gorgoneb.avif",
-  creteB: "panels/creteb.avif",
-  styxB: "panels/styxb.avif",
-  forgeB: "panels/forgeb.avif",
-  areneB: "panels/areneb.avif",
-  enfersB: "panels/enfersb.avif",
-  echidnaB: "panels/echidnab.avif",
-  tartareB: "panels/tartareb.avif",
-  abysseB: "panels/abysseb.avif",
-  olympeB: "panels/olympeb.avif",
+  gorgoneB: "panels/gorgoneB.avif",
+  creteB: "panels/creteB.avif",
+  styxB: "panels/styxB.avif",
+  forgeB: "panels/forgeB.avif",
+  areneB: "panels/areneB.avif",
+  enfersB: "panels/enfersB.avif",
+  echidnaB: "panels/echidnaB.avif",
+  tartareB: "panels/tartareB.avif",
+  abysseB: "panels/abysseB.avif",
+  olympeB: "panels/olympeB.avif",
 };
 
 /* ============================ TYPES ============================ */
@@ -298,10 +299,10 @@ type StoryBlock = { speaker?: string; text: string };
 type StoryBeatDef = { id: string; title: string; panel: string; blocks: StoryBlock[] };
 const STORY_BEATS: StoryBeatDef[] = [
   {
-    id: "lea", title: "La lectrice", panel: "p6",
+    id: "lea", title: "La lectrice", panel: "p12",
     blocks: [
       { speaker: "Narrateur", text: "Le Bureau des reliques sent le papier ancien et l'encaustique. Derrière le guichet, une jeune femme classe des dossiers — et elle tourne la tête avant même que vous ayez ouvert la bouche." },
-      { speaker: "Léa", text: "« Attendez… Je vous connais. {NAME}, n'est-ce pas ? Vous êtes réveillé depuis 639 jours. Je le sais à un jour près : j'y étais. Chaque lecture. Vous me devez encore la fin du tome 12. »" },
+      { speaker: "Léa", text: "« Attendez… c'est vous ? {NAME} ? Le dormeur de la chambre 214, debout devant mon guichet… Je vous ai lu chaque jour pendant 639 jours, et j'ai gardé la fin du tome 12 pour votre réveil. La voilà tombée, cette fin — vous me la devez toujours. »" },
       { speaker: "Narrateur", text: "Elle vous regarde une seconde de trop, comme on vérifie une parenthèse qu'on n'a jamais osé fermer. Puis elle se reprend : « Rien. Oubliez. Vos noyaux de boss, la consignation, le rang — tout passe par ici. » Une ombre passe derrière ses yeux : celle de quelqu'un qui retient une question depuis deux ans." },
     ],
   },
