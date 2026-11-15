@@ -302,7 +302,7 @@ const STORY_BEATS: StoryBeatDef[] = [
     id: "lea", title: "La lectrice", panel: "p12",
     blocks: [
       { speaker: "Narrateur", text: "Le Bureau des reliques sent le papier ancien et l'encaustique. Derrière le guichet, une jeune femme classe des dossiers — et elle tourne la tête avant même que vous ayez ouvert la bouche." },
-      { speaker: "Léa", text: "« Attendez… c'est vous ? {NAME} ? Le dormeur de la chambre 214, debout devant mon guichet… Six cent trente-neuf jours, un chapitre chaque soir — et je me suis toujours arrêtée avant la fin du tome 12. Je m'étais juré de ne la découvrir qu'avec vous. Alors… quand vous voulez. »" },
+      { speaker: "Léa", text: "« Attendez… c'est vous ? {NAME} ? Le dormeur de la chambre 214, debout devant mon guichet… Six cent trente-neuf jours, un chapitre chaque soir — et je me suis juré de ne terminer cette histoire qu'avec vous. C'est quand vous voulez. »" },
       { speaker: "Narrateur", text: "Elle vous regarde une seconde de trop, comme on vérifie une parenthèse qu'on n'a jamais osé fermer. Puis elle se reprend : « Rien. Oubliez. Vos noyaux de boss, la consignation, le rang — tout passe par ici. » Une ombre passe derrière ses yeux : celle de quelqu'un qui retient une question depuis deux ans." },
     ],
   },
