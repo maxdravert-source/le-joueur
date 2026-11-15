@@ -264,7 +264,7 @@ const SCENES: { chapter?: string; sub?: string; panel?: string; speaker?: string
   { panel: "p9", speaker: "Narrateur", text: "Deux ans de coma. Deux ans pendant lesquels un corps devrait fondre, s'ankyloser, oublier. Or les compteurs s'affolent : réflexes, force, souffle — ce corps est au sommet de ce que l'humain tolère." },
   { panel: "p9", speaker: "Médecin", text: "« C'est… impossible. Deux ans de coma ne font pas ça. Aucun coma ne fait ça. Soit vous nous cachez quelque chose, soit c'est le monde qui nous cache quelque chose. »" },
   { panel: "p10", speaker: "Narrateur", text: "Le lendemain, contre l'avis des médecins, {NAME} signe sa sortie. Il serre une à une les mains qui l'ont maintenu en vie." },
-  { panel: "p10", speaker: "{NAME}", text: "« Merci à vous tous de m'avoir veillé pendant deux ans. Je vous dois la vie — et pour une fois, je crois que je peux vraiment rendre la pareille. »" },
+  { panel: "p10", speaker: "{NAME}", text: "« Merci à vous tous d'avoir veillé sur moi pendant deux ans. Je vous dois la vie — et pour une fois, je crois que je peux vraiment rendre la pareille. »" },
   { panel: "p11", speaker: "Narrateur", text: "Ce même jour, une jeune femme pousse la porte de la chambre 214, un tome neuf sous le bras. Le lit est fait. Vide. Les draps déjà refroidis." },
   { panel: "p11", speaker: "Infirmière", text: "« L'homme de la 214 ? Il est sorti ce matin. Marche parfaitement, même pas une canne. Il tenait à peine en place, paraît-il. »" },
   { panel: "p11", speaker: "Léa, la sœur de l'enfant", text: "« 639 jours à veiller sur un inconnu… et je ne connais même pas son nom. Attends, super-héros. Tu me dois la fin du tome 12 — et je viendrai la chercher. »" },
